@@ -14,7 +14,7 @@ How to "Install" Windows Jenkins:
 	= Get your installer
 		- Go to "https://www.jenkins.io/".
 		- Press download.
-		- Go to "Download Jenkins 2.222.4".
+		- Go to "Download Jenkins 2.222.4" for Windows.
 		- As good practice, run a virus scan on the downloaded file.
 		- Unzip/Run the .msi installer.
 		
