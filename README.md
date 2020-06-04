@@ -1,0 +1,1 @@
+This is my Jenkins Project, it doesn't require a build of any value.
