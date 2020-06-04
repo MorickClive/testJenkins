@@ -18,7 +18,7 @@ How to "Install" Windows Jenkins:
 		- As good practice, run a virus scan on the downloaded file.
 		- Unzip/Run the .msi installer.
 	- Installer
-		- Follow the install process, remember where you installed it. ( We'll refer to it as [INSTALL PATH])
+		- Follow the install process, remember where you installed it. ( We'll refer to it as [INSTALL PATH] )
 		- Follow the instructions Jenkins provides on your browser, remember the credential details! :D
 	
 	This can paste your install path here for reference if you wish:
@@ -36,7 +36,7 @@ How "Start" a Windows Jenkins Instance:
 	- Begin Jenkins
 		- Run "jenkins.exe start" in Command Prompt.(hint: make sure you are in the correct folder to find the exe with the command line interface.)
 		- Open your browser and navigate to "http://localhost:8080/".
-		- Wait for the server to load the Jenkins webpage!
+		- Wait for the server to load the Jenkins Webpage!
 		- You're done! :D
 
 =========================
@@ -48,6 +48,8 @@ How to "Stop/Close" a Windows Jenkins Instance:
 	Alternatively:
 		Enter the following:
 		http://localhost:8080/exit (click button to send POST request)
+
+	If you receive "WMI Operation failure: ServiceCannotAcceptControl", it is reasonable to suspect your Jenkins instance is already closed and you are calling for it to stop again.
 		
 =========================
 How to "Uninstall" Windows Jenkins:
