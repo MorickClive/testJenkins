@@ -3,22 +3,22 @@ Jenkins Windows Guide
 =========================
 ====
 == Contents
-- How to Install Windows Jenkins
+- How to "Install" Windows Jenkins
 - How "Start" a Windows Jenkins Instance
 - How to "Stop/Close" a Windows Jenkins Instance
-- How to Uninstall Windows Jenkins
+- How to "Uninstall" Windows Jenkins
 
 =========================
-How to Install Windows Jenkins:
+How to "Install" Windows Jenkins:
 =========================
 	- Get your installer
-		- Go to https://www.jenkins.io/
-		- Press download
-		- Go to "Download Jenkins 2.222.4"
-		- As good practice, run a virus scan on the downloaded file
-		- Unzip/Run the .msi installer
+		- Go to "https://www.jenkins.io/".
+		- Press download.
+		- Go to "Download Jenkins 2.222.4".
+		- As good practice, run a virus scan on the downloaded file.
+		- Unzip/Run the .msi installer.
 	- Installer
-		- Follow the install process, remember where you installed it ( we'll refer to it as [INSTALL PATH])
+		- Follow the install process, remember where you installed it. ( We'll refer to it as [INSTALL PATH])
 		- Follow the instructions Jenkins provides on your browser, remember the credential details! :D
 	
 	This can paste your install path here for reference if you wish:
@@ -27,16 +27,16 @@ How to Install Windows Jenkins:
 =========================
 How "Start" a Windows Jenkins Instance:
 =========================
-	- Find your install
+	- Find your install.
 		- Go to your Windows "start menu"(bottom left windows Icon) and type 'cmd', right click the "command prompt" application.
 		- Select "Run as administrator" for Command Prompt.
-		- Navigate in Command prompt to your[INSTALL PATH] 
+		- Navigate in Command Prompt to your[INSTALL PATH]
 			(Hint if you installed on another drive, instead of cd, make sure you enter the drive name e.g 'Z:' to access that drive)
 	
 	- Begin Jenkins
-		- Run "jenkins.exe start"(hint: make sure you are in the correct folder to find the exe with the command line interface.)
-		- Open your browser and navigate to http://localhost:8080/
-		- Wait for the server to load the webpage!
+		- Run "jenkins.exe start" in Command Prompt.(hint: make sure you are in the correct folder to find the exe with the command line interface.)
+		- Open your browser and navigate to "http://localhost:8080/".
+		- Wait for the server to load the Webpage!
 		- You're done! :D
 
 =========================
@@ -50,8 +50,29 @@ How to "Stop/Close" a Windows Jenkins Instance:
 		http://localhost:8080/exit (click button to send POST request)
 		
 =========================
-How to Uninstall Windows Jenkins:
+How to "Uninstall" Windows Jenkins:
 =========================
 	- Use your downloaded .msi installed
 	- Select the remove option and confirm.
-	- You've Uninstalled Jenkins!
+	- You have uninstalled Jenkins!
+
+	- You may wish to investigate your [INSTALL PATH] just to observe if the uninstalled
+
+=========================
+=========================
+Examples - Try it out!
+=========================
+=========================
+Here's some sample directions you can take towards building confidence with Jenkins:
+
+    - Try to set up a new job that targets a git repository, performing a successful Maven goal(e.g test, package, validate) after a build. (Hint: you will want to start in the job config settings)
+	- Try to set up a job that polls a git repository using scm polling in the job configuration.
+	- If you can, use this build pipeline to forward your build generated jar to a nexus server, or use a text file to update an Apache2 Ubtuntu Webserver.
+
+Completing any above example should give you a working understanding of Jenkins potential and familiarise you with how to work with a standard pipeline!
+If not, don't worry; research anything that you're stuck on; knowing about builds and how they can moderate project builds will put you in good stead with the workflow.
+
+	Some considerations:
+	- A Windows version may require Jenkins/Manage Jenkins/Global Tools/Global Tool Configuration/JDK setup.
+	- You may also need to associate Maven with Jenkins.
+	- Don't forget to stop the Jenkins instance if you are no longer using it.
