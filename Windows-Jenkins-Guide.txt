@@ -36,7 +36,7 @@ How "Start" a Windows Jenkins Instance:
 	- Begin Jenkins
 		- Run "jenkins.exe start" in Command Prompt.(hint: make sure you are in the correct folder to find the exe with the command line interface.)
 		- Open your browser and navigate to "http://localhost:8080/".
-		- Wait for the server to load the Webpage!
+		- Wait for the server to load the Jenkins webpage!
 		- You're done! :D
 
 =========================
