@@ -1,4 +1,6 @@
-package com.qa.designpatterns.decorator;
+package com.qa.designpatterns.decorator.impl;
+
+import com.qa.designpatterns.decorator.Pizza;
 
 public class PizzaImpl implements Pizza {
 
