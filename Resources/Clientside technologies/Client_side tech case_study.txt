@@ -1,0 +1,64 @@
+
+Onsite Technology Case Study:
+
+Primary Roles: 
+	- "Custom Java framework" maintenance, 
+	- Service code support(face-to-face, meetings, code policy enforcement).
+	- Testing.
+==================================================
+
+	IDE: 
+		- Intellij (I started from academy with Eclipse; it's better to know the concepts of an IDE than to have it do everything for you)
+
+	Development:
+		- Java (Focus on back-end maintenance and delivery)
+		- SpringBoot (Supported existing framework; good to know and how to understand API handling with code)
+		- Maven (Build tool)
+
+	Testing:
+		- Junit
+		- Mockito
+		- PowerMock
+		- SoapUI		
+		- Jmeter
+
+	CD/CI:
+		- Jenkins
+		- Sonarqube
+		- Oracle SQL Developer
+
+	Source code control:
+		- Subversion
+		- TortoiseSVN
+
+	Scripting:
+		- Bash and Shell scripts (.bat/.sh; Windows/Linux)
+		- Groovy (Think scripting but with Java)
+		- Python
+
+	OS:
+		- Windows (for development)
+		- PuTTY(Server access terminal/cli)
+		- Unix/Linux (Server logs)
+
+	Issue Tracking:
+		- 'Atlassian' Jira (issue boards, sprint planning)
+
+	Misc:
+		- Groovy (Scripting based on Java)
+		- Maven (Advanced usage, dependency maintenance, releases and deployments - becomes clearer when onsite)
+		- Regex
+		- Xpath
+		
+==================================================
+
+	Utility applications(My recommendations):
+		- Agent Ransack 
+			- (Super system/file searcher, can scan file names, contents. You can apply regex patterns on names or file text contents!)
+			
+		- Notepad++ 
+			- Any developer's friend for quick file reviews, syntax highlighting support; there wasn't a day I wasn't using it.
+			
+		- Excel 
+			- if you're confident with excel and you have the time, it can really help you identify lists of tasks and break them down with time/workload estimations 
+		

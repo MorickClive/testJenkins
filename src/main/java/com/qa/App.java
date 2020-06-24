@@ -1,6 +1,7 @@
 package com.qa;
 
 import com.qa.designpatterns.decorator.Pizza;
+import com.qa.designpatterns.decorator.impl.PizzaDecorator;
 import com.qa.designpatterns.decorator.impl.PizzaImpl;
 import com.qa.designpatterns.decorator.impl.decorations.Cheese;
 import com.qa.designpatterns.decorator.impl.decorations.Mushrooms;
@@ -22,6 +23,7 @@ public class App
 
         // Decorator pattern
         //decorator();
+
     }
 
     // The Singleton pattern
@@ -55,4 +57,7 @@ public class App
 
         System.out.println(ourPizza.decorate() + ".");
     }
+
+
+
 }
